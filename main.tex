@@ -27,11 +27,12 @@
 \name{Luan}{Bui Ngoc}
 \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 %\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{+84~0165~9854~6822}                   % optional, remove / comment the line if not wanted
+\phone[mobile]{+84~165~9854~6822}                   % optional, remove / comment the line if not wanted
 %\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
 %\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
 \email{ngocluan.bka@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{https://github.com/ngocluanbka}                         % optional, remove / comment the line if not wanted
+%\homepage{https://github.com/ngocluanbka}                         % optional, remove / comment the line if not wanted
+\homepage{https://goo.gl/nndS89}
 %\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[74pt][0.2pt]{picture.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 \quote{}                                 % optional, remove / comment the line if not wanted
@@ -54,9 +55,8 @@
 \makecvtitle
 
 \section{Education}
+\cventry{2012--2017}{Bachelor}{Hanoi University of Science and Technology}{Hanoi}{}{}  % arguments 3 to 6 can	 be left empty
 \cventry{2009--2012}{Highschool Diploma}{Kim Thanh HighSchool}{Hai Duong}{}{}
-\cventry{2012--2017}{Bachelor}{Hanoi University of Science and Technology}{Hanoi}{}{}  % arguments 3 to 6 can be left empty
-
 %\section{Master thesis}
 %\cvitem{title}{\emph{Title}}
 %\cvitem{supervisors}{Supervisors}
@@ -64,7 +64,24 @@
 
 \section{Experience}
 \subsection{Vocational}
-\cventry{Oct2015 Jan2017}{Intership}{High Performance Computing Center, HUST}{Hanoi}{}{I have been following my lecturer and joined ICSE as an intern.\newline{}%
+\cventry{01-2018 03-2017}{Sofware developer}{FOSEC .JSC}{Hanoi}{}{After graduating from HUST with a “Very Good” Degree of Engineering, I got my first full-time job at Fosec as a Python developer.\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Fosec Key
+  \begin{itemize}%
+	\item My first project in Fosec was “Fosec Key”, which helps many companies manage their servers easily. The main idea of the project is for managers to manage their users accounts, manage their server and access permission between users and servers. 
+	\item My role in this project was backend developer, I wrote REST API code and integrated them with 3rd party (privacyIDEA) for bringing 2-factor authentication feature.
+  \end{itemize}
+\item VSM (Vulnerability management system)
+  \begin{itemize}
+	\item This project enables to control and synthesize information of multiple vulnerability scanners (Nmap, Acunetix, Nessus) on a single interface.
+	\item I worked in this project as a trainee project manager, I analyzed user requests, assigned and supervised work for the team members. 
+	\item Beside of this, I had to handle the working flow between VSM and other scanners using Celery Task Queue.
+  \end{itemize}
+\end{itemize}
+}
+
+\cventry{01-2017 10-2015}{Intership}{High Performance Computing Center, HUST}{Hanoi}{}{I have been following my lecturer and joined ICSE as an intern.\newline{}%
 Detailed achievements:%
 \begin{itemize}%
 \item Auto scaling Project
@@ -76,7 +93,8 @@ Detailed achievements:%
 	\item This is my graduate project which solves problem how to integrate and control all IoT Platform in a single interface. I used Python/Flask to write Backend (API, driver for IoT Platform). I also used 	Angular2 to write a simple GUI for end users
   \end{itemize}
 \end{itemize}}
-\cventry{Jan2015 July2015}{Intership}{Viettel Software}{Hanoi}{}{Viettel Software was my first company, then I respect all the time and knowledge that I learnt when I worked there.
+
+\cventry{07-2015 01-2015}{Intership}{Viettel Software}{Hanoi}{}{Viettel Software was my first company, then I respect all the time and knowledge that I learnt when I worked there.
 \newline{}  
 Detailed achievements:%
   \begin{itemize}%
@@ -91,10 +109,10 @@ Detailed achievements:%
 \cvitemwithcomment{English}{500 Toeic}{}
 
 \section{Computer skills}
-\cvitem{Language}{Python,PHP, HTML, CSS}
-\cvitem{IDE}{Pycharm, SublimeText, Eclipse}
-\cvitem{Database}{MySQL, InfluxDB}
-\cvitem{Tools}{Git, Docker, Kubernetes}
+\cvitem{Language}{Python, Typescript}
+\cvitem{IDE}{Pycharm, Visual Studio Code}
+\cvitem{Database}{MySQL, InfluxDB, MongoDB}
+\cvitem{Tools}{Git, Docker(entry level), Kubernetes(entry level)}
 
 \section{Adwards and Scholarships}
 \cvitem{Nov2015}{Third prize in UET Hackathon Competition}
